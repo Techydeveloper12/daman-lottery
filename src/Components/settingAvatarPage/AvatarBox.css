@@ -1,0 +1,12 @@
+.avatarbox{
+    width: 9em;
+    height: 9em;
+    border-radius: 15%;
+    overflow: hidden;
+    margin: 0.5em;
+}
+
+.avatarbox img{
+    width:100%;
+    height: 100%;
+}

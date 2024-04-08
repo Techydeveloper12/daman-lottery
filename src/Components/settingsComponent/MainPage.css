@@ -1,0 +1,99 @@
+.settingpage-main-container {
+  width: 100%;
+  margin: 0 auto;
+  background: #f7f8ff;
+}
+
+.settingpage-top {
+  width: 100%;
+  height: 12.6rem;
+  padding-bottom: 2.90667rem;
+  background: linear-gradient(
+    90deg,
+    RGB(54,142,255) 0%,
+    RGB(54,142,255) 97%,
+    RGB(54,142,255) 100%
+  );
+  display: flex;
+  -webkit-box-align: end;
+  align-items: flex-end;
+  border-radius: 0px 0px 5rem 5rem;
+}
+
+
+.settingpage-info{
+    margin: 0 auto;
+width: 80%;
+background: rgb(255, 255, 255);
+border-radius: 0.96667rem;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+row-gap: 20px;
+padding: 1.1rem 1.4rem;
+position: relative;
+top: 8.93333rem;
+box-shadow: rgba(208, 208, 237, 0.36) 0px 0.5333rem 0.61333rem;
+z-index: 99;
+}
+.avatar , .settingpage-name,  .settingpage-uid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar-image {
+    width: 6.3rem;
+    height: 5.86667rem;
+    border-radius: 50%;
+    /* margin-right: 20px; */
+    overflow: hidden;
+    border:3px solid RGB(54,142,255);
+    
+}
+
+.avatar-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.change-avatar , .name , .uid{
+ font-size: large;
+ display: flex;
+ align-items: center;
+ gap: 20px;
+ color: rgb(99, 99, 99);
+}
+
+
+.settingpage-name h3 , .settingpage-uid h3{
+    font-weight: 600;
+    margin-left: 10px;
+color: rgb(71, 71, 71);
+}
+
+.settingpage-name{
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.bottom-page{
+    padding-top: 140px;
+    padding-left: 2em;
+    padding-right: 2em;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.bottom-box-container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 0.76667rem;
+    row-gap: 30px;
+    margin-bottom: 100px;
+}
